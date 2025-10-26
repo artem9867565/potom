@@ -1,0 +1,219 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(102, 190, 231);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-image: url("https://learn.logikaschool.com/uploads/student/5854275/68d8fff26f188.png");
+    padding: 30px;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #155DFC;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-top: 5px solid rgb(0, 255, 234);
+    border-bottom: 5px solid rgb(0, 195, 255);
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 800px;
+   margin: 0px auto;
+   text-align: center; 
+   
+}
+
+
+ 
+article img{
+    width: 330px;
+    height: 210px;
+}
+
+.article-but {
+    padding: 14px 19px;
+    margin: 100px;
+    background-color: #b6c1e4;
+   
+   
+}
+
+footer {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* градієнт синьо-блакитний */
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  padding: 35px 20px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.socials a img {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.socials a img:hover {
+  transform: scale(1.15);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.footer-text {
+  font-size: 20px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+main {
+    
+    
+}
+
+
+.container {
+  display: flex;
+  align-items: center;           /* вирівнює картинку і текст по вертикалі */
+  justify-content: center;       /* центрує блок по горизонталі */
+  background-color: #6ac3ec;     /* блакитний фон */
+  padding: 20px;
+  flex-wrap: wrap;               /* дозволяє перенос елементів на новий ряд */
+  gap: 20px;                     /* відступ між картинкою і текстом */
+}
+
+.image {
+  width: 300px;                  /* розмір картинки */
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;                /* щоб картинка не стискалась */
+}
+
+.text img {
+  display: inline-block;
+  vertical-align: middle; /* вирівнює іконку з текстом */
+  margin-right: 20px;      /* відступ між іконкою і текстом */
+}
+
+.text {
+  display: block;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  max-width: 400px;
+  line-height: 1.5;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.text br {
+  display: block;
+  margin-bottom: 8px; /* трохи відступу між рядками */
+}
+
+.bonus {
+  background-color: #28a0cf; /* основний блакитний фон (як на другій картинці) */
+  text-align: center;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* світла плашка всередині */
+.bonus-box {
+  background-color: #a7eaff; /* світліший відтінок */
+  display: inline-block;     /* під розмір контенту */
+  padding: 30px 50px;
+  border-radius: 15px;       /* округлі кути */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* м’яка тінь */
+}
+
+.bonus-box p {
+  color: red;               /* текст червоний, як раніше */
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.bonus-box button {
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bonus-box button:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+
+
